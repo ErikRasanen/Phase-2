@@ -1,0 +1,53 @@
+.App {
+  margin: 25px;
+
+}
+
+.Cards-container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.CreditCards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Numbers-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Greeting-container {
+  border: 1px solid black;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.Greeting-container p {
+  margin-left: 10px;
+}
+
+.Card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid black;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 400px;
+
+}
+
+.Card-container img {
+  margin-left: 10px;
+}
+
+.Card-container ul {
+  list-style: none;
+  margin-left: 0;
+}
