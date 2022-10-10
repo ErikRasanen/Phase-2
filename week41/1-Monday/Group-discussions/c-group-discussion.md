@@ -6,8 +6,8 @@
 1. What is the difference between the following statements:
 
 ```js
-import {getImageUrl} from './utils.js';
-import getImageUrl from './utils.js';
+import {getImageUrl} from './utils.js'; ANSWER://for named export
+import getImageUrl from './utils.js'; ANSWER://for default export
 ```
 
 2. Is there anything wrong with the following component? Explain.
@@ -24,6 +24,8 @@ const App = () => {
     )
   };
 ```
+ANSWER: Bracket ( after "return" should be on the same line for code to work
+
 
 3. 
 - Give an example how [reduce()]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)) works. 
@@ -45,6 +47,34 @@ const parts = [
 			},
 		]
 ```
+ANSWER:
+
+const App = () => {
+  const parts = [
+    {
+      name: "Fundamentals of React",
+      exercises: 10,
+    },
+    {
+      name: "Using props to pass data",
+      exercises: 7,
+    },
+    {
+      name: "State of a component",
+      exercises: 14,
+    },
+  ]
+
+const sum = parts.reduce((previousValue, currentValue) => previousValue + currentValue.exercises, 0,);
+console.log(sum);
+  return(
+    <div></div>
+  )
+};
+
+export default App
+
+
 
 4.  
 - Give an example how [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) works.
