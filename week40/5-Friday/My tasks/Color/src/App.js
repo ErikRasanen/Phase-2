@@ -55,12 +55,12 @@ import { useState } from 'react'
             <button
                 onClick={handleClick}
                 style={mystyle}>{likes}
-                Likes
+                {" "}Likes
             </button>
             <button
                 onClick={handleClick1}
                 style={mystyle1}>{likes1}
-                 Likes
+                 {" "}Likes
             </button>
         </div>
       )
