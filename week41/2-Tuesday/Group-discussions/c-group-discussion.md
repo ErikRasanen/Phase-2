@@ -13,6 +13,8 @@ const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']
 const result = words.filter(word => word.length > 6);
 console.log(result);
 ```
+ANSWER:
+compiler filter/logs all words longer than 6.  expected output: Array ["exuberant", "destruction", "present"]
 
 ## Exercise 2
 
@@ -41,11 +43,16 @@ const App = () => {
 
 export default App;
 ```
+ANSWER: Because alert is inside "onClick", it's working parallel to the setNumber
+
+
 
 ## Exercise 3
 
 Refer to the `App.js`. Discuss how to add, update and remove objects from arrays in React [Ref 2 below]
 
+ANSWER:
+This one was discussed
 
 ## ref
 1. [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)

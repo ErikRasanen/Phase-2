@@ -1,0 +1,19 @@
+// index.js Step2
+
+import Note from './components/Note'
+
+const App = ({ notes } ) => {
+  return (
+    <div>
+      <h1>Notes</h1>
+      <ul>
+        {notes.map(note => 
+          <Note key={note.id} note={note} />
+        )}
+      </ul>
+    </div>
+  )
+}
+
+// https://github.com/fullstack-hy2020/part2-notes/tree/part2-1
+export default App

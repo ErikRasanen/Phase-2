@@ -1,0 +1,3 @@
+### nasa
+GET https://images-api.nasa.gov/search?q=europa
+Content-Type: {{contentType}
